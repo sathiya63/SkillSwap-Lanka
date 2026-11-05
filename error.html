@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Error {{code}}{% endblock %}{% block content %}<main class="shell page error-page"><div class="eyebrow">SOMETHING WENT WRONG</div><h1>{{code}}</h1><p>{{message}}</p><a class="btn btn-primary" href="{{url_for('home')}}">Back home ↗</a></main>{% endblock %}
